@@ -1,0 +1,2 @@
+jiraone
+requests
