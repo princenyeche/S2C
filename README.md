@@ -6,6 +6,8 @@
 * A configuration file exist called `config.ini` which houses the server and cloud instance details.
 * Only change the fields where the comment mentioned it can be changed.
 * Do not change the server or cloud sections.
+* Open the `attachment_transfer.py` file and enter the JQL syntax needed on line 10.
+  * You can use any valid JQL to search for multiple project even, the returned result is what the script uses to search for attachments.
 
 ## Requirement
 * This script requires python >= 3.6.x so download the versions higher or equivalent to it to use the script.Preferably use version 3.7.9.
