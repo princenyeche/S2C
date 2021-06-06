@@ -97,7 +97,7 @@ def begin(init: bool = True):
                     else:
                         print("Attachment added to {}".format(keys), "Status code: {}".format(run.status_code))
                         add_log("Attachment added to {}".format(keys), "info")
-                    # remove the last column since it contains an empty cells.
+                    # remove the last row since it contains an empty cells.
                     if last_cell is True:
                         if count >= (length - 1):
                             break
